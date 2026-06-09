@@ -1,0 +1,7 @@
+pageObjects\AccountPage.class
+testCases\RegistrationTest.class
+pageObjects\LoginPage.class
+pageObjects\SignupPage.class
+testCases\LoginTest.class
+pageObjects\HomePage.class
+utilities\BaseTest.class
