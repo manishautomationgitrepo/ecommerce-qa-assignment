@@ -6,9 +6,10 @@ This project automates critical user journeys of an e-commerce application using
 
 ### Automated Test Scenarios
 
-1. Successful Login
-2. Add Product to Cart
-3. Checkout Flow
+1. Registration.
+2. Successful Login
+3. Add Product to Cart
+4. Checkout Flow
 
 ---
 
@@ -28,13 +29,16 @@ src/test/java
 
 * pageObjects
 
-  * LoginPage.java
-  * HomePage.java
+  * AccountPage.java
   * CartPage.java
   * CheckoutPage.java
+  * HomePage.java
+  * LoginPage.java
+  * SignupPage.java
 
 * testCases
 
+  * RegistrationTest.java
   * LoginTest.java
   * AddToCartTest.java
   * CheckoutTest.java
@@ -43,11 +47,12 @@ src/test/java
 
   * BaseTest.java
   * WaitUtils.java
+  * config.properties
 
 Other Files
 
 * pom.xml
-* testng.xml
+* testng.xml (If you are executing the Checkout Flow, please run it through the testng.xml suite).
 
 ---
 
